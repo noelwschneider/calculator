@@ -39,4 +39,14 @@ body, html {
         }
     }
 
+    #decimal-btn {
+        flex: 0 0 33%;
+        &.error {
+            border-color: red;
+        }
+
+        &.pending {
+            border-color: blue;
+        }
+    }
 }
