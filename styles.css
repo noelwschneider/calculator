@@ -23,5 +23,9 @@ body, html {
 
     .number-btn {
         flex: 0 0 33%;
+        
+        &.zero {
+            flex: 0 0 66%;
+        }
     }
 }
