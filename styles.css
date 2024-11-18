@@ -11,7 +11,17 @@ body, html {
     box-sizing: inherit;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+#calculator {
+    height: 300px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+#number-pad {
+    display: flex;
+    flex-flow: row wrap-reverse;
+
+    .number-btn {
+        flex: 0 0 33%;
+    }
 }
